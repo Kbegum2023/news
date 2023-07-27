@@ -1,0 +1,33 @@
+/* styles.css or your custom CSS file */
+.container {
+    position: relative;
+}
+
+.image-container {
+    height: calc(100vh / 2);
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh / 2);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
