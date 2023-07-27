@@ -31,6 +31,9 @@ const HomePage = () => {
           <h1>Your news digest</h1>
         </div>
       </div>   
+
+      <APIData query={query} /> 
+      
     </Layout>
     
   )
