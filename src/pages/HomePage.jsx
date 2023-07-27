@@ -4,8 +4,6 @@ import APIData from '../component/APIData';
 import RandomImages from '../component/RandomImages';
 
 
-import '../style.css';
-
 const HomePage = () => {
 
   const [query, setQuery] = useState('everything');
