@@ -2,19 +2,19 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 const Layout = (props) => {
-  return (
+   return (
     <div>
-      <div className="bg-slate-950 p-4 flex justify-between items-center">
+      <div className="bg-slate-950 p-4 flex flex-wrap justify-between items-center">
         <Link to="/">
           <button className="px-4 py-2 text-white rounded-md text-xl">
             Daily Digest
           </button>
         </Link>
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-4 mt-4 justify-center sm:mt-0 sm:justify-end">
           <li className="text-white">
             <NavLink
               to="/"
-              exact="true" 
+              exact={true}
               className="hover:underline cursor-pointer"
             >
               Home
@@ -23,7 +23,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/business"
-              exact="true" 
+              exact={true}
               className="hover:underline cursor-pointer"
             >
               Business
@@ -32,7 +32,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/politics"
-              exact="true" 
+              exact={true}
               className="hover:underline cursor-pointer"
             >
               Politics
@@ -41,7 +41,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/technology"
-              exact="true" 
+              exact={true}
               className="hover:underline cursor-pointer"
             >
               Technology
@@ -50,7 +50,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/lifestyle"
-              exact="true" 
+              exact={true}
               className="hover:underline cursor-pointer"
             >
               Lifestyle
@@ -65,4 +65,3 @@ const Layout = (props) => {
 };
 
 export default Layout;
-

@@ -26,25 +26,15 @@ const APIData = ({query}) => {
   }, [query]);
 
     
-
- return (
+  return (
     <div className="bg-white shadow-lg rounded-lg p-6 mb-8">
       <section className="container mx-auto px-4 py-8">
         {isLoading ? (
-          <Loader /> // Show Loader component while data is being fetched
+          <Loader />
         ) : (
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {articles.map((article) => {
-              const {
-                abstract,
-                headline,
-                lead_paragraph,
-                news_desk,
-                section_name,
-                web_url,
-                _id,
-                word_count,
-              } = article;
+              // ... Rest of the article data ...
 
               const randomImageUrl = RandomImages();
 
