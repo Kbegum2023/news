@@ -4,7 +4,7 @@ const Loader = () => {
   return (
     <button
       type="button"
-      className="bg-indigo-500 text-white px-4 py-2 rounded-md flex items-center disabled:opacity-50"
+      className="bg-slate-950 text-white px-4 py-2 rounded-md flex items-center disabled:opacity-50"
       disabled
     >
       <svg

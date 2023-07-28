@@ -1,4 +1,4 @@
-/* styles.css or your custom CSS file */
+
 .container {
     position: relative;
 }
@@ -6,6 +6,13 @@
 .image-container {
     height: calc(100vh / 2);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-img{
+    width: 100%;
 }
 
 .overlay {
@@ -32,23 +39,21 @@
     text-align: center;
 }
 
-/* Media Queries for responsiveness */
 
-/* For smaller devices (phones) */
 @media screen and (max-width: 640px) {
     .text-container {
         font-size: 1.5rem;
     }
 }
 
-/* For medium devices (tablets) */
+
 @media screen and (min-width: 641px) and (max-width: 1024px) {
     .text-container {
         font-size: 1.8rem;
     }
 }
 
-/* For larger devices (desktops) */
+
 @media screen and (min-width: 1025px) {
     .text-container {
         font-size: 2rem;

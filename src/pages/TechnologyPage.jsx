@@ -3,6 +3,8 @@ import Layout from '../Layout/Layout';
 import APIData from '../component/APIData';
 import RandomImages from '../component/RandomImages';
 
+import '../style.css';
+
 const TechnologyPage = () => {
   const [query, setQuery] = useState('technology');
   const randomImageUrl = RandomImages();
@@ -15,7 +17,7 @@ const TechnologyPage = () => {
           <img
             src={randomImageUrl || placeholderImageUrl}
             alt="Placeholder"
-            className="w-full h-full object-cover mb-4"
+            className="banner-img"
           />
         </div>
         {/* Overlay to limit the image height */}

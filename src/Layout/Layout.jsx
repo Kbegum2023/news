@@ -14,7 +14,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/"
-              exact={true}
+
               className="hover:underline cursor-pointer"
             >
               Home
@@ -23,7 +23,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/business"
-              exact={true}
+
               className="hover:underline cursor-pointer"
             >
               Business
@@ -32,7 +32,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/politics"
-              exact={true}
+
               className="hover:underline cursor-pointer"
             >
               Politics
@@ -41,7 +41,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/technology"
-              exact={true}
+
               className="hover:underline cursor-pointer"
             >
               Technology
@@ -50,7 +50,7 @@ const Layout = (props) => {
           <li className="text-white">
             <NavLink
               to="/lifestyle"
-              exact={true}
+
               className="hover:underline cursor-pointer"
             >
               Lifestyle
